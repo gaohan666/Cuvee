@@ -3,16 +3,16 @@ import { defineConfig } from 'dumi'
 let base: string | undefined
 let publicPath: string | undefined
 
-if (process.env.NODE_ENV === 'production' && process.env.PREVIEW !== '1') {
+if (process.env.PREVIEW !== '1') {
 	base = '/Cuvee/'
 	publicPath = '/Cuvee/'
 }
 
 export default defineConfig({
+	title: 'Cuvee', // 站点名称
 	base,
 	publicPath,
-	title: 'Cuvee', // 站点名称
-	outputPath: 'doc-dist', // 输出文件夹
+	outputPath: 'doc-site', // 输出文件夹
 	resolve: {
 		docDirs: ['docs'],
 		atomDirs: [{ type: 'component', dir: '/packages/components/src' }],
