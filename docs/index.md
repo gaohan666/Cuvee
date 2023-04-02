@@ -15,6 +15,6 @@ features:
     description: 好看又实用啊
   - emoji: 🎨
     title: 全新主题系统
-    description: 不是吧不是吧
+    description: 试试看
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
