@@ -31,6 +31,10 @@ group:
 
 <code src="./demos/index4.tsx"></code>
 
+## 可输入
+
+<code src="./demos/index5.tsx"></code>
+
 ## API
 
 | Name                 | Description      | Type                                  | Default |
