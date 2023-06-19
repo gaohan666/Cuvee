@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './style/index'
 export interface AlertProps {
 	kind?: 'info' | 'positive' | 'negative' | 'warning'
 	children?: any
@@ -16,13 +16,12 @@ const kinds: KindMap = {
 	warning: '#FFA502'
 }
 
-const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
+const Alert: React.FC<AlertProps> = ({ children, kind = 'info' }) => (
 	<div
 		className={prefixCls}
 		style={{
 			background: kinds[kind]
 		}}
-		{...rest}
 	>
 		{children}
 	</div>

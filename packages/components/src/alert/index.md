@@ -1,8 +1,10 @@
 ---
 title: Alert
 nav:
-  title: Component
+  title: 组件
   path: /common
+group:
+  title: 通用
 mobile: false
 toc: content
 ---

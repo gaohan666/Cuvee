@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
-import { SiteContext } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_jy74yj7s4jvfclq6gczwd45rby/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 
@@ -33,14 +33,14 @@ export default function DumiContextWrapper() {
 
   return (
     <SiteContext.Provider value={{
-      pkg: {"name":"perfect-design","description":"","version":"1.0.0","license":"ISC","author":""},
+      pkg: {"name":"cuvee","license":"ISC"},
       entryExports,
       demos,
       components,
       locales,
       loading,
       setLoading,
-      themeConfig: {"title":"Cuvee","footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"name":"Cuvee","carrier":"dumi","hd":true,"rtl":true,"nav":[{"title":"指南","link":"/guide"},{"title":"组件","link":"/components/alert"}]},
+      themeConfig: {"title":"Cuvee","footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"name":"Cuvee","carrier":"dumi","hd":true,"rtl":true,"nav":[{"title":"指南","link":"/guide"},{"title":"组件","link":"/components/alert"},{"title":"Hooks","link":"hooks/"}]},
     }}>
       {outlet}
     </SiteContext.Provider>

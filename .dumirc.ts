@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi'
+import path from 'path'
 
 let base: string | undefined
 let publicPath: string | undefined
@@ -18,6 +19,9 @@ export default defineConfig({
 		atomDirs: [{ type: 'component', dir: '/packages/components/src' }],
 		codeBlockMode: 'passive'
 	},
+	alias: {
+		cuvee: path.join(__dirname, 'packages/components/src')
+	},
 	themeConfig: {
 		name: 'Cuvee',
 		carrier: 'dumi', // 设备状态栏左侧的文本内容
@@ -31,6 +35,10 @@ export default defineConfig({
 			{
 				title: '组件',
 				link: '/components/alert'
+			},
+			{
+				title: 'Hooks',
+				link: 'hooks/'
 			}
 		]
 	}

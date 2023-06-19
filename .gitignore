@@ -1,2 +1,13 @@
-/node_modules
+# dependencies
+node_modules
+/packages/*/node_modules
+/package-lock.json
+/packages/*/package-lock.json
+/packages/i18n/demo
+
+# bundle files
+/.dumi/tmp-production
 /docs-dist
+/es
+/lib
+/packages/*/dist

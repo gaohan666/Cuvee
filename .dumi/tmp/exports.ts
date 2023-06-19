@@ -7,7 +7,7 @@ export type { RuntimeConfig } from './core/defineApp'
 export { createBrowserHistory, createHashHistory, createMemoryHistory, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, Helmet, useAppData, useSelectedRoutes, useClientLoaderData, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.51_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
 export type {  History } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.51_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.51_5sobs7pqqppcrk4txy6tpvg4em/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from 'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.51_7ffbsk27kpuebqms3smsulmp7a/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 export { TestBrowser } from './testBrowser';
