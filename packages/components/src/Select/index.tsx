@@ -4,7 +4,8 @@ import React, {
 	createRef,
 	useEffect,
 	useState,
-	useCallback
+	useCallback,
+	memo
 } from 'react'
 import { DownOutlined, LoadingOutlined, CloseOutlined } from '@ant-design/icons'
 import style from './style/index.module.less'
@@ -213,4 +214,4 @@ const Select: FC<SelectProps> = (props) => {
 		</div>
 	)
 }
-export default Select
+export default memo(Select)
