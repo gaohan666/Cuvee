@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/guide":{"path":"guide","id":"docs/guide","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"components/alert/index":{"id":"components/alert/index","path":"components/alert","parentId":"DocLayout"},"components/Button/index":{"id":"components/Button/index","path":"components/button","parentId":"DocLayout"},"components/Divider/index":{"id":"components/Divider/index","path":"components/divider","parentId":"DocLayout"},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout","prerender":false}} as const;
+  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/guide":{"path":"guide","id":"docs/guide","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"components/alert/index":{"id":"components/alert/index","path":"components/alert","parentId":"DocLayout"},"components/Button/index":{"id":"components/Button/index","path":"components/button","parentId":"DocLayout"},"components/Divider/index":{"id":"components/Divider/index","path":"components/divider","parentId":"DocLayout"},"components/Select/index":{"id":"components/Select/index","path":"components/select","parentId":"DocLayout"},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout","prerender":false}} as const;
   return {
     routes,
     routeComponents: {
@@ -16,6 +16,7 @@ export async function getRoutes() {
 'components/alert/index': React.lazy(() => import(/* webpackChunkName: "packages__components__src__alert__index.md" */'C:/Users/Hasee/Desktop/Cuvee/packages/components/src/alert/index.md')),
 'components/Button/index': React.lazy(() => import(/* webpackChunkName: "packages__components__src__Button__index.md" */'C:/Users/Hasee/Desktop/Cuvee/packages/components/src/Button/index.md')),
 'components/Divider/index': React.lazy(() => import(/* webpackChunkName: "packages__components__src__Divider__index.md" */'C:/Users/Hasee/Desktop/Cuvee/packages/components/src/Divider/index.md')),
+'components/Select/index': React.lazy(() => import(/* webpackChunkName: "packages__components__src__Select__index.md" */'C:/Users/Hasee/Desktop/Cuvee/packages/components/src/Select/index.md')),
 'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_jy74yj7s4jvfclq6gczwd45rby__node_modules__dumi__dist__client__pages__Demo__index" */'C:/Users/Hasee/Desktop/Cuvee/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_jy74yj7s4jvfclq6gczwd45rby/node_modules/dumi/dist/client/pages/Demo/index.js')),
 },
   };
